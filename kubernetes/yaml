@@ -15,7 +15,7 @@ spec:
       hostNetwork: true
       containers:
       - name: iot
-        image: dockerren120/seneca-ren-docker_modification
+        image: dockerren120/seneca-ren-docker
         ports:
            - containerPort: 9005
              hostPort: 9005
